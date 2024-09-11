@@ -1,4 +1,4 @@
-//===========menu========
+const {cmd , commands} = require('../command')
 cmd({
     pattern: "menu",
     react: "📁",

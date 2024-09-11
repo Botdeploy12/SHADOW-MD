@@ -1,5 +1,6 @@
 const {cmd , commands} = require('../command')
-
+const {cmd , commands} = require('../command')
+const { fetchJson } = require('../lib/functions')
 cmd({
     pattern: "menu",
     desc: "menu the bot",

@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 const {sleep} = require('../lib/functions')
 
 cmd({
-    pattern: "restartbot",
+    pattern: "reset",
     desc: "restart the bot QUEEN-KYLIE-MD",
     category: "owner",
     react: "👾",

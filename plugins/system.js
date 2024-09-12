@@ -16,7 +16,7 @@ let status = `┌─────────────────────
 ├ 📟 *Ram usage:-* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├ ⚙️ *Platform:-* ${os.hostname()}
 ├ 👨‍💻 *Owners:-* shadow-md
-├ 🧬 *Version:-* 1.0.0
+├ 🧬 *Version:-* 6.0.0
 └───────────────────────
 
 > ❯❯ ꜱʜᴀᴅᴏᴡ-ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ➣

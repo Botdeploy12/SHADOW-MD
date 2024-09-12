@@ -1,5 +1,5 @@
 
-<h1 align="center">SHADOW-MD 2.1.0</h1>
+<h1 align="center">SHADOW-MD 6.0.0</h1>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
@@ -8,7 +8,7 @@
      
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＳＨＡＤＯＷ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
-#𝗩𝗘𝗥𝗦𝗜𝗢𝗡 2.1.0 𝗨𝗣 𝗗𝗔𝗧𝗘 
+#𝗩𝗘𝗥𝗦𝗜𝗢𝗡 6.0.0 𝗨𝗣 𝗗𝗔𝗧𝗘 
 
 ➤𝗣𝗜𝗥 𝗖𝗢𝗗 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗❮❮❮
 

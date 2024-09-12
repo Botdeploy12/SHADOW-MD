@@ -11,13 +11,13 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let des = `*👋 Hello ${pushname}*
+let des = `*👨‍💻 Hello ${pushname}*
 
 ⚡𝗛𝗘𝗟𝗟𝗢𝗪 ┇ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ⚡
 
-*👋🏻 Nice to meat you*
+*💗 Nice to meat you*
 
-*►𝚑𝚢ｉａｍ ＡＬＩＶＥ ｏｎｗ👾*
+*► 𝚑𝚢ｉａｍ ＡＬＩＶＥ ｏｎｗ👾*
 
 *🔖We welcome the new arrivals of the digital world_►*
 
@@ -29,7 +29,7 @@ let des = `*👋 Hello ${pushname}*
 
 > *➣ ʀᴀᴍ ᴜꜱᴇɢᴇ : 167/1024ᴍʙ*
 
-> *➣ ᴠᴇʀꜱɪᴏɴ : 2.0.1*
+> *➣ ᴠᴇʀꜱɪᴏɴ : 6.0.0*
 
 *┇Always smile and life will be beautiful💗*
 

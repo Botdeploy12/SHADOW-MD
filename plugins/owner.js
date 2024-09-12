@@ -30,7 +30,11 @@ let dec = `*👋 Hello ${pushname}*
 
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7eba8a7c5f0d4d59a6419.jpg`},caption:dec},{quoted:mek});
-
+await conn.sendMessage(from, {
+            audio: { url: 'https://github.com/Shadowmd99/V-6-menu/raw/main/Shadow%206%20v%20owner%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB.mp3' },
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
 }catch(e){
 console.log(e)
 reply(`${e}`)

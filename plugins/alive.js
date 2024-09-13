@@ -34,6 +34,12 @@ let des = `*👨‍💻 Hello ${pushname}*
 *┇Always smile and life will be beautiful💗*
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*✨`
+
+await conn.sendMessage(from, {
+            audio: { url: 'https://github.com/Shadowmd99/V-6-menu/raw/main/Alivevvv6.mp3' },
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
 return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/357b75726739a8b9c68de.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)

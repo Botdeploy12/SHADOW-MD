@@ -40,7 +40,29 @@ await conn.sendMessage(from, {
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
-return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/357b75726739a8b9c68de.jpg`},caption: des},{quoted: mek})
+
+await conn.sendMessage(from, { text: config.ALIVE_MSG ,
+  contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardednewslettermessageInfo: {
+      wachannel: ' https://whatsapp.com/channel/0029Vajn0gb8F2pFh7PDqO0c ',
+      newslettername: "SHADOW-MD",
+      servermessageId: 999
+    },
+externaladreply: { 
+title: 'SHADOW-MD',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediatype: 5,
+sourceurl: "https://github.com/Shadowmd99" ,
+thumbnailurl: 'https://telegra.ph/file/5f0335bebb60421970e8b.jpg' ,
+renderlargerthumbnail: false,
+showadattribution: false
+}
+}, { quoted : mek})
+
 }catch(e){
 console.log(e)
 reply(`${e}`)

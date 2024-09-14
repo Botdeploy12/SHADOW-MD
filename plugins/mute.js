@@ -21,6 +21,6 @@ if (!isBotAdmins) return reply(mg.needbotadmins);
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });
 } catch(e) {
 console.log(e);
-reply('*කරුනාකර shadow md bot ට ඇඩ්මින් ලබා දෙන ❗❗*')    
+reply('*කරුනාකර shadow md bot ට ඇඩ්මින් ලබා දෙන්න ❗❗*')    
 } 
 })

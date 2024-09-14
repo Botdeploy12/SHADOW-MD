@@ -21,6 +21,6 @@ try{
             return await conn.sendMessage(m.chat, { react: { text: '🔊', key: mass.key } });
 } catch(e) {
 console.log(e);
-reply('*Error !!*')     
+reply('කරුනාකර shadow md bot ඇඩ්මින් ලබා දෙන්න ❗❗')     
 } 
 })

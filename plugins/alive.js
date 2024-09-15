@@ -40,7 +40,27 @@ await conn.sendMessage(from, {
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
-return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/357b75726739a8b9c68de.jpg`},caption: des},{quoted: mek})
+await conn.sendMessage(from, { text: config.ALIVE_MSG ,
+  contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardednewslettermessageInfo: {
+    newsletterJid: '120363260590125028@newsletter',
+      newslettername: "Manu-MD",
+      servermessageId: 999
+    },
+externaladreply: { 
+title: 'Manu-MD',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediatype: 5,
+sourceurl: "https://whatsapp.com/channel/0029VaN1XMn2ZjCsu9eZQP3R" ,
+thumbnailurl: 'https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg' ,
+renderlargerthumbnail: false,
+showadattribution: false
+}
+}}, { quoted : mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)

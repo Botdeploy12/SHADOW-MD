@@ -110,7 +110,7 @@ let tex = `
 > *𝗣𝗢𝗪𝗘𝗥𝗗 𝗕𝗬 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗 𝗠𝗨𝗟𝗧𝗜 𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗔𝗧𝗦 𝗔𝗣𝗣 𝗕𝗢𝗧 👨🏻‍💻*
 `
 await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/Shadowmd99/V-6-menu/raw/main/Version%206%20%E0%B7%84%E0%B7%90%E0%B6%A9%E0%B7%9C%20menu.mp3' },
+            audio: { url: 'https://github.com/Shadowmd99/V-6-menu/raw/main/%E0%B6%B8%E0%B7%99%E0%B6%B1%E0%B7%94%206.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

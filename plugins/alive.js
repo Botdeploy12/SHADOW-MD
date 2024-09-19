@@ -47,7 +47,6 @@ await conn.sendMessage(from, { text: config.ALIVE_MSG ,
     forwardingScore: 999,
     isForwarded: true,
     forwardednewslettermessageInfo: {
-    newsletterJid: '120363260590125028@newsletter',
       newslettername: "SHADOW-MD",
       servermessageId: 999
     },

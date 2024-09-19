@@ -52,12 +52,12 @@ await conn.sendMessage(from, { text: config.ALIVE_MSG ,
     },
 externaladreply: { 
 title: 'SHADOW MD',
-body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+body: 'best',
 mediatype: 5,
 sourceurl: "https://whatsapp.com/channel/0029Vajn0gb8F2pFh7PDqO0c" ,
 thumbnailurl: 'https://telegra.ph/file/5f0335bebb60421970e8b.jpg' ,
 renderlargerthumbnail: false,
-showadattribution: false
+showadattribution: false,
 }
 }}, { quoted : mek})
 

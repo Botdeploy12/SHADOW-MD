@@ -16,6 +16,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const user = m.mentioned[0] || m.quoted?.sender
         if (!user) return reply('Please tag or reply to a user to promote.')
 
+        const user = q.split(' ')[0]
         await conn.groupParticipantsUpdate(from, [user], 'promote')
         await reply(`@${user.split('@')[0]} has been promoted to admin.`, { mentions: [user] })
     } catch (e) {

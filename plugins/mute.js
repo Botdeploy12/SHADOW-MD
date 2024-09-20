@@ -10,12 +10,14 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
+   
     
-if (!isOwner || !isAdmins) return;
+    if (!isGroup) return reply('This command can only be used in a group❗.')
+        if (!isBotAdmins) return reply('කරුනාකර ශැඩො md බොට් වෙත ඇඩ්මින් ලබා දෙන්න ❗.')
+        if (!isAdmins) return reply('ඔබ owner නොවෙ ❌.')
+ 
 
-
-if (!m.isGroup) return reply(mg.onlygroup);
-if (!isBotAdmins) return reply(mg.needbotadmins);     
+     
             await conn.groupSettingUpdate(m.chat, "announcement")
            const mass = await conn.sendMessage(m.chat, { text: '*Group chat muted* 🔒' }, { quoted: mek });
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });

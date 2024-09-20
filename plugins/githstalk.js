@@ -20,7 +20,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let userInfo = `     👨‍💻𝗦𝗛𝗔𝗗𝗢𝗪 - 𝗠𝗗 - 𝗚𝗜𝗧𝗛𝗦𝗧𝗘𝗟𝗞👨‍💻
+        let userInfo = `👨‍💻𝗦𝗛𝗔𝗗𝗢𝗪 - 𝗠𝗗 - 𝗚𝗜𝗧𝗛𝗦𝗧𝗘𝗟𝗞👨‍💻
         
 👤 *ᴜꜱᴇʀ ɴᴀᴍᴇ*: ${data.name || data.login}
 
@@ -38,7 +38,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 🔭 *ᴘᴜʙʟɪᴄ ɢɪꜱᴛꜱ*: ${data.public_gists}
 
-> ❯❯ ꜱʜᴀᴅᴏᴡ-ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ➣
+> 🚀 ꜱʜᴀᴅᴏᴡ ᴏᴡɴᴇʀ ʙʏ ʟᴀᴋꜱʜᴀɴ ᴛᴄ ᴛᴇᴀᴍ
 `;
 
         await conn.sendMessage(from, { image: { url: data.avatar_url }, caption: userInfo }, { quoted: mek });

@@ -18,15 +18,15 @@ const url = data.url
 
 let desc = `*❮❮❮ SHADOW SONG DOWNLOADER ❯❯❯*
 
-> ➤ `TITLE` - ${data.title}
+> ➤ *TITLE* - ${data.title}
 
-> ➤ `VIEWS` - ${data.views}
+> ➤ *VIEWS - ${data.views}
 
-> ➤ `DESCRIPTION` - ${data.description}
+> ➤ *DESCRIPTION* - ${data.description}
 
-> ➤ `TIME` - ${data.timestamp}
+> ➤ *TIME* - ${data.timestamp}
 
-> ➤ `AGO` - ${data.ago}
+> ➤ *AGO - ${data.ago}
 
 > *ꜱʜᴀᴅᴏᴡ ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ⚟*
 `
@@ -63,15 +63,15 @@ const url = data.url
 
 let des = `*❮❮ SHADOW VIDEO DOWNLOADER ❯❯*
 
-> ➤ `TITLE` - ${data.title}
+> ➤ *TITLE* - ${data.title}
 
-> ➤ `VIEWS` - ${data.views}
+> ➤ *VIEWS* - ${data.views}
 
-> ➤ `DESCRIPTION` - ${data.description}
+> ➤ *DESCRIPTION* - ${data.description}
 
-> ➤ `TIME` - ${data.timestamp}
+> ➤ *TIME* - ${data.timestamp}
 
-> ➤  `AGO` - ${data.ago}
+> ➤  *AGO* - ${data.ago}
 
 > *ꜱʜᴀᴅᴏᴡ ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ⚟*
 `

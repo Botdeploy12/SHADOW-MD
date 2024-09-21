@@ -4,6 +4,14 @@
 <h3 align="center">A Passionate Developer From Sri Lanka</h3>
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
 
+## 🎀 STEP 03 -  Deployment Methods
+
+<a href="https://vajiratech.github.io/VAJIRA-DEPLOY/QUEEN-IZUMI-WEB-main/projects/deployment.html"><img src="https://img.shields.io/badge/DEPLOYMENT%20METHODS-green" alt="DEPLOY PLATFORMS" width="300"></a>
+<br>
+
+
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yasiyaofc1&label=Profile%20views&color=0e75b6&style=flat" alt="yasiyaofc1" /> </p>
 
 <h1 align="center">SHADOW-MD 6.0.0</h1>

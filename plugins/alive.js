@@ -62,7 +62,7 @@ thumbnailurl: 'https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg' ,
 renderlargerthumbnail: false,
 showadattribution: false
 }
-}, { quoted : mek})
+}, quoted : mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)

@@ -16,7 +16,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*❮❮❮ SONG DOWNLOADER ❯❯❯*
+let desc = `*❮❮❮ SHADOW SONG DOWNLOADER ❯❯❯*
 
 > ➤ `TITLE` - ${data.title}
 
@@ -61,7 +61,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*❮❮ VIDEO DOWNLOADER ❯❯*
+let des = `*❮❮ SHADOW VIDEO DOWNLOADER ❯❯*
 
 > ➤ `TITLE` - ${data.title}
 
